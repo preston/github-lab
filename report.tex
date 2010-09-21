@@ -1,0 +1,87 @@
+\documentclass{article}
+
+% Header and footer configuration.
+\usepackage{fancyhdr}
+\usepackage{lastpage} % To get the total number of pages.
+\pagestyle{fancy}
+\fancyfoot[L]{Git Collaboration Lab. {\copyright} 2010 Preston Lee. All rights reserved.}
+\fancyfoot[C]{}
+\fancyfoot[R] {{\thepage} of \pageref{LastPage}}
+%\pagestyle{headings}
+
+% For using .png images in figures.
+\usepackage{graphicx}
+\usepackage{pslatex}
+
+% Set page margins to custom values.
+\usepackage[top=1.5in, bottom=1.5in, left=2in, right=2in]{geometry}
+
+
+% Add the ``draft'' watermark in the background.
+% \usepackage{draftwatermark}
+
+
+
+ % Adjust line spacing to taste.
+\linespread{1.2}
+
+\usepackage{float}
+\restylefloat{figure}
+
+\title{Collaboration Lab Using Git and Javadoc}
+
+\renewcommand{\rmdefault}{ptm}
+
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+\renewcommand{\floatpagefraction}{0.35}
+\setcounter{topnumber}{5}
+\setcounter{bottomnumber}{5}
+\setcounter{totalnumber}{5}
+
+
+% Customize PDF metadata fields and configure clickable references.
+\usepackage[pdfborder={0 0 0}, pdftitle={Git Collaboration Lab}, pdfauthor={Preston Lee}, pdfproducer={Preston Lee}, pdfsubject={Hands-on lab assignment with GitHub.}]{hyperref}
+
+\usepackage{listings}
+
+
+\begin{document}
+
+% \sffamily
+
+\maketitle
+
+\section{Overview}
+This lab provides you and your team with a set of programming collaboration challenges that you must solve using the git version control system.
+\footnotemark\footnotetext{\url{http://git-scm.com/}} Your team must complete this lab by {\bf Thursday, September 21st} for 7 points, or pay a 1 point penalty per day late. When you have completed the assignment, {\bf your team captain must submit the GitHub repository URL to me via Blackboard}.
+
+Each and every team member will need to install git client software to complete this lab. Use of the EGit eclipse plugin is fine, though command-line packages work just as well. (Linux and OSX users will may want to use the command-line "git-core" package. Similar packages are available for Windows users.)
+
+\section{Instructions}
+
+\begin{enumerate}
+	\item Have your team captain create a new git {\it repository} on GitHub.com. Use your team name as the name of the repository.
+	\item The team captain should now {\it clone} the repository (use the HTTP URL provided by GitHub) to his/her local computer, and create a new Eclipse Java project within it.
+	\item With your team captain, create a simple ``hello world" console application: a single driver class with a main method that prints ``Hello, team!" on the first line, and ``My name is {\it First Last}." on the second. Document the class with JavaDoc comments including the ``@author" tag for the team captain. Do NOT include @author tags for the other team members. (You may, however, add other tags as you feel appropriate.)
+	\item The team captain must now {\it commit} the changes to their local repository and {\it push} them to GitHub.com. This will sync the Eclipse project with the centralized GitHub copy.
+	\item Every other member of the team (in other words, everyone {\it except} the team captain) should now {\it clone} the repository--using the exact same HTTP URL provided by GitHub--to their local machines, and using the ``File - Import... - General - Existing Projects into Workspace" feature to access the local copy within your programming environment.
+	\item All non-captain team members should now add their own new class to the project--named ``FirstnameLastname"--with a single ``public String toString()" method that returns a string of "Firstname Last". Document your class and method using Javadoc format. Make sure the documentation displays correctly in the "Javadoc" view within Eclipse.
+	\item All non-captain members should now {\it commit} their changes to their local {\it clone}, and then {\it push} the changes to GitHub.\footnotemark\footnotetext{Depending on the activity of other team members, you may to {\it pull} the changes of others before you are allowed to {\it push} your own!}
+	\item Once all non-captain members have committed and pushed their changes to GitHub, the captain should now {\it pull} changes into their local repository. Refresh the project view within Eclipse, and your captain should now see all the new classes!
+	\item With your team captain, open the driver class and create a new instance of each new class, and print it to the console, like so: 
+\begin{lstlisting}[language=Java, frame=single]
+AliceAnderson alice = new AliceAnderson();
+System.out.println("Welcome " + alice + "!");
+// repeat for other team members
+\end{lstlisting}
+	\item The team captain should now add ``@author" tags to the driver class for {\bf all} team members, save, {\it commit} the changes to their local repository, and {\it push} them to GitHub.com.
+	\item Non-captain members should now {\it pull} to retrieve the completed project.
+	\item Have the team captain {\bf and only the team captain} submit the project URL via Blackboard. 
+	
+
+\end{enumerate}
+
+
+\end{document}
