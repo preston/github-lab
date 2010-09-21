@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=pdflatex 2010.8.16)  21 SEP 2010 14:47
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=pdflatex 2010.8.16)  21 SEP 2010 16:00
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -422,7 +422,7 @@ Here is how much of TeX's memory you used:
 al/share/texmf-texlive-dist/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/
 texmf-texlive-dist/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-tex
 live-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (2 pages, 74169 bytes).
+Output written on report.pdf (2 pages, 74194 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
