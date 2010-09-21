@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=pdflatex 2010.8.16)  21 SEP 2010 13:31
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live/MacPorts 2009_6) (format=pdflatex 2010.8.16)  21 SEP 2010 14:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -380,10 +380,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
-
-
-LaTeX Warning: No \author given.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -396,7 +392,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
-[1
+ [1
 
 {/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Overfull \hbox (6.70135pt too wide) in paragraph at lines 70--71
@@ -426,7 +422,7 @@ Here is how much of TeX's memory you used:
 al/share/texmf-texlive-dist/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/
 texmf-texlive-dist/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-tex
 live-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (2 pages, 73945 bytes).
+Output written on report.pdf (2 pages, 74169 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
